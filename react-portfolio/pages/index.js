@@ -186,16 +186,16 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className ="text-md py-2 leading-8 text-gray-600 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, maxime ea. Vel nemo 
-              <span className="text-orange-500">repellendus, iste undenisi</span> 
-              temporibus deleniti at corrupti nobis impedit? 
-              <span className="text-orange-500">Cupiditate, eveniet blanditiis</span> 
-              dolorum quaerat iste inventore!
+              Projects that I have completed. Please refer to my  
+              <span className="text-orange-500"> GitHub </span> 
+              for all of my 
+              <span className="text-orange-500"> code. </span> 
+              
             </p>
           </div>
           <div className="flex flex-col gap-20 py-10 lg:flex-row flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg">
-              <Image src={Web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} />
+              <Image src={Web1} href="" className="rounded-lg object-cover" width={"100%"} height={"100%"} />
             </div>
             <div className="basis-1/3 flex-1 shadow-lg">
               <Image src={Web1} className="rounded-lg object-cover" width={'100%'} height={"100%"} />
