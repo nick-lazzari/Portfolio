@@ -25,6 +25,7 @@ import profile from "../public/profile.png";
 import iMac from "../public/iMac.png";
 import MacBook from "../public/MacBook.png";
 import Web1 from "../public/web1.png"
+import Web2 from "../public/web2.png"
 import { useState } from 'react';
 
 export default function Home() {
@@ -49,7 +50,7 @@ export default function Home() {
                 />
               </li>
               <li><a className="bg-gradient-to-r from-orange-400 to-orange-700 text-white px-4 py-2 rounded-md ml-8" 
-              href="https://sapphire-elane-33.tiiny.site/"
+              href="https://pdfhost.io/v/c1LtMICPH_Lazzari_Resume"
               >
                   Resume
                 </a>
@@ -195,17 +196,17 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-20 py-10 lg:flex-row flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg">
-              <Image src={Web1} href="" className="rounded-lg object-cover" width={"100%"} height={"100%"} />
+              <Image src={Web2} href="" className="rounded-lg object-cover" width={"100%"} height={"100%"} />
             </div>
             <div className="basis-1/3 flex-1 shadow-lg">
               <Image src={Web1} className="rounded-lg object-cover" width={'100%'} height={"100%"} />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg">
+            {/*<div className="basis-1/3 flex-1 shadow-lg">
               <Image src={Web1} className="rounded-lg object-cover" width={'100%'} height={"100%"} />
             </div>
             <div className="basis-1/3 flex-1 shadow-lg">
               <Image src={Web1} className="rounded-lg object-cover" width={'100%'} height={"100%"} />
-            </div>
+            </div>*/}
           </div>
         </section>
         <section className="px-5 py-24">
